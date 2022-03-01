@@ -1,0 +1,87 @@
+@font-face {
+  font-family: Futuristic;
+  src: url(Fonts/static/Orbitron-Regular.ttf);
+}
+
+*
+{
+  font-family: Futuristic;
+}
+
+body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #ef6d4b;
+}
+
+.container
+{
+  text-align: center;
+  background: #F9F871;
+  width: 600px;
+  height: 150px;
+  border-radius: 25%;
+  padding: 25px;
+}
+
+.inputMiniContainer
+{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -45px;
+}
+
+p
+{
+  margin-left: 0px;
+  margin-right: 5px;
+  font-size: 32px;
+  margin-top: 15px;
+}
+
+label
+{
+  font-size: 32px;
+}
+
+input
+{
+  margin-top: 10px;
+  font-size: 32px;
+  width: 95px;
+  height: 40px;
+  text-align: center;
+}
+
+button
+{
+  font-size: 24px;
+  margin-right: 30px;
+  box-shadow: black;
+  background-color: #c62a5a;
+  border-width: 0px;
+  border-color: #c62a5a;
+  box-shadow: #c62a5a 0px 0px 2px 5px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s; /* for Safari */
+}
+
+button:hover
+{
+  transition-duration: 0.25s;
+  background-color: #1a0663;
+  border-color: #1a0663;
+  box-shadow: #1a0663 0px 0px 2px 10px;
+  color: white;
+}
+
+button:active
+{
+  transition-duration: 0.25s;
+  transform: scale(1.25);
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <label for="converter">CONVERTER FROM <span class="celsius">°C</span> TO <span class="fahrenheit">F</span></label>
+        <div class="inputMiniContainer">
+            <input type="number" id="leftConverter" placeholder="...">
+            <p>°C is</p>
+            <input type="number" id="rightConverter" placeholder="" readonly="readonly">
+            <p>F</p>
+        </div>
+        <p class="result"></p>
+        <div>
+            <button class="convertBtn">CONVERT</button>
+            <button class="resetBtn">RESET</button>
+            <button class="revertBtn">REVERT</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
